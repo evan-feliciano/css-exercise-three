@@ -22,7 +22,6 @@ nav {
   padding-top: 50px;
   border: 5px;
   background-color: lightgray;
-  width: 103.5%;
 }
 
 h1 {
@@ -39,8 +38,11 @@ h3 {
   background-color: lightgray;
   border: .5px solid gray;
   padding: 20px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .arrow {
+  align-self: center;
   float: right;
 }
