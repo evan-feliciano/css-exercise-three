@@ -23,27 +23,27 @@ nav {
   border: 5px;
   background-color: lightgray;
   width: 103.5%;
+  font-weight: normal;
+  display: inline-block;
 }
 
-h1 {
+.restaurant-list, h1 {
   font-weight: bold;
   font-size: 2em
 }
 
-h3 {
+.restaurant-list, h3 {
   font-size: 1.5em
 }
 
 .location {
+  a:hover
+    color: darkgray;
+
   box-sizing: border-box;
   background-color: lightgray;
   border: .5px solid gray;
   padding: 20px;
   display: flex;
     justify-content: space-between;
-}
-
-.arrow {
-  align-self: center;
-  float: right;
 }
