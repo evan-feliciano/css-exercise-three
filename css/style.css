@@ -8,26 +8,23 @@ body {
 
 .container {
   margin: 0 auto;
-  width: 420px;
-  background-color: black;
+  width: 100%;
+  background-color: #777777;
 }
 
 nav {
   padding: 10px 0 20px 15px;
-  position: fixed;
-  width: 80%;
+  width: 78.5%;
   margin: auto;
   background-color: black;
 }
 
 .restaurant-list {
-  padding-top: 45px;
   border: 5px;
   background-color: lightgray;
   width: 80%;
   margin: auto;
   font-weight: normal;
-  display: inline-block;
 }
 
 .restaurant-list, h1 {
