@@ -1,4 +1,4 @@
-*:before, *:after { box-sizing: border-box; } ```
+*:before, *:after { box-sizing: border-box; }
 
 body {
   background-color: #333;
@@ -35,7 +35,6 @@ nav {
 .restaurant-list, h3 {
   font-size: 1.15em;
   font-weight: normal;
-  margin-top: 5px;
 }
 
 .location {
