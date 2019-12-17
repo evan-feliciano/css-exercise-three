@@ -4,21 +4,19 @@ body {
   font-size: 10px;
 }
 
-* {
-  box-sizing: border-box;
-}
+*:before, *:after { box-sizing: border-box; } ```
 
 .container {
   margin: 0 auto;
-  width: 435px;
+  width: 420px;
   background-color: black;
 }
 
 nav {
-  margin: 0 auto;
   padding: 10px 0 20px 15px;
   position: fixed;
-  width: 420px;
+  width: 80%;
+  margin: auto;
   background-color: black;
 }
 
@@ -26,7 +24,8 @@ nav {
   padding-top: 45px;
   border: 5px;
   background-color: lightgray;
-  width: 103.5%;
+  width: 80%;
+  margin: auto;
   font-weight: normal;
   display: inline-block;
 }
@@ -43,24 +42,22 @@ nav {
 }
 
 .location {
-  a:hover
-    color: darkgray;
-
+  position: relative;
   box-sizing: border-box;
   background-color: lightgray;
   border: .5px solid gray;
   padding: 20px;
-  display: flex;
-    justify-content: space-between;
+}
+
+.location:hover {
+  background-color: darkgrey;
 }
 
 .content {
   display: inline-block;
+  width: 99%;
 }
 
 .arrow {
   display: inline-block;
-  position: absolute;
-  margin-top: 7px;
-  margin-left: 380px;
 }
